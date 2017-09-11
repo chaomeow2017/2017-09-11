@@ -1,0 +1,312 @@
+@charset"utf-8";
+
+body{
+	 width:100%;
+	 height: auto;
+	 margin: 0;
+	 padding: 0;
+}
+#all{
+	width: 100%;
+	height: auto;
+	margin: auto;
+}	
+#header{
+	background-image: url('img/portal.jpg') ;
+	background-size: cover;
+	background-position: center center;
+
+
+}
+@media screen and (min-width:1024px){
+body{
+	 width:100%;
+	 height: auto;
+	 margin: 0;
+	 padding: 0;
+	 background-color: red;
+	  }
+
+
+	
+}	  
+#header{
+	width: 100%;
+	height: 585px; 
+	padding-top: 15px;
+	
+}
+#header_top{
+	width: 100%;
+	height: 30px;
+	background-color: white;
+	margin-bottom: 145px;
+	
+}
+#header_mid{
+	width: 358px;
+	height: 160px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 144px;
+
+}
+#header_bottom{
+	width: 100%;
+	height: 73px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 30px; 
+	background-color: rgba(0, 0, 0,0.8);
+}
+#booking{
+	width: 895px;
+	height: 42px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: white;
+
+}
+#announce{
+	width: 200px;
+	height: 150px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+}	
+#place{
+	width: 994px;
+	height: 344px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: pink;
+	margin-bottom: 50px;
+
+}
+#place_boxL{
+	width: 326px;
+	height: 344px;
+	margin-right: 8px;
+	float: left;
+	background-color: purple;
+}
+#place_boxM{
+	width: 326px;
+	height: 344px;
+	margin-right: 8px;
+	float: left;
+	background-color: purple;
+}
+#place_boxR{
+	width: 326px;
+	height: 344px;
+	float: left;
+	background-color: purple;
+}
+#placebtn{
+	width: 313px;
+	height: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: gray;
+	margin-bottom: 20px;
+}
+#dm{
+	display: none;
+}
+}
+
+@media screen and (min-width: 481px) and (max-width: 1023px){
+body{
+body{
+	 width:100%;
+	 height: auto;
+	 margin: 0;
+	 padding: 0;
+	 background-color: red;
+	  }
+#all{
+	width: 100%;
+	height: auto;
+	margin: auto;
+
+	
+}	  
+#header{
+	width: 100%;
+	height: 585px;
+	background-image: url('img/portal.jpg') ;
+	padding-top: 15px;
+	background-size: cover;
+
+}
+#header_top{
+	width: 100%;
+	height: 30px;
+	background-color: white;
+	margin-bottom: 145px;
+	
+}
+#header_mid{
+	width: 358px;
+	height: 160px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 144px;
+
+}
+#header_bottom{
+	width: 100%;
+	height: 73px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 30px; 
+	background-color: rgba(0, 0, 0,0.8);
+}
+#booking{
+	width: 738px;
+	height: 42px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: white;
+
+}
+#announce{
+	width: 200px;
+	height: 150px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+}	
+#place{
+	width: 695px;
+	height: 711px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: pink;
+	margin-bottom: 50px;
+
+}
+#place_boxL{
+	width: 695px;
+	height: 344px;
+	margin-bottom: 25px;
+	background-color: purple;
+}
+#place_boxM{
+	width: 335px;
+	height: 344px;
+	margin-right: 25px;
+	float: left;
+	background-color: purple;
+}
+#place_boxR{
+	width: 335px;
+	height: 344px;
+	float: left;
+	background-color: purple;
+}
+#placebtn{
+	width: 695px;
+	height: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: gray;
+	margin-bottom: 20px;
+}
+#dm{
+	display: none;
+}
+}
+
+
+@media screen and (max-width:480px){
+
+body{
+	 width:100%;
+	 height: auto;
+	 margin: 0;
+	 padding: 0;
+	  }
+	  
+#header{
+	width: 100%;
+	height: 400px;
+	
+}
+#header_top{
+	width: 100%;
+	height: 45px;
+	background-color: white;
+	margin-bottom: 135px;
+	
+}
+#header_mid{
+	width: 350px;
+	height: 70px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+
+}
+#header_bottom{
+	width: 100%;
+	height: 73px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 30px; 
+	background-color: rgba(0, 0, 0,0);
+}
+#booking{
+	width: 100%;
+	height: 42px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: white;
+
+}
+#announce{
+	width: 100%;
+	height: 150px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+}	
+#place{
+	width: 100%;
+	height: 1032px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: pink;
+	
+
+}
+#place_boxL{
+	width: 100%;
+	height: 344px;
+	background-color: purple;
+}
+#place_boxM{
+	width: 100%;
+	height: 344px;
+	background-color: yellow;
+}
+#place_boxR{
+	width: 100%;
+	height: 344px;
+	background-color: purple;
+}
+#placebtn{
+	display: none;
+
+}
+#dm{
+	width: 100%;
+	height: 150px;
+	background-color: gray;
+
+}
+}
